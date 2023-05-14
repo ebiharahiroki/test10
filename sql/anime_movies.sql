@@ -32,7 +32,7 @@ INSERT INTO anime_movies (title, published_year) VALUES ('ドラゴンボールZ
 INSERT INTO anime_movies (title, published_year) VALUES ('ONE PIECE FILM GOLD','2016');
 INSERT INTO anime_movies (title, published_year) VALUES ('劇場版ポケットモンスター 結晶塔の帝王 ENTEI','2000');
 INSERT INTO anime_movies (title, published_year) VALUES ('ゲド戦記','2006');
-INSERT INTO anime_movies (title, published_year) VALUES ('ヱヴァンゲリヲン新劇場版:Q','2012');
+INSERT INTO anime_movies (title, published_year) VALUES ('エヴァンゲリヲン新劇場版:Q','2012');
 INSERT INTO anime_movies (title, published_year) VALUES ('名探偵コナン から紅の恋歌','2017');
 INSERT INTO anime_movies (title, published_year) VALUES ('名探偵コナン 純黒の悪夢','2016');
 INSERT INTO anime_movies (title, published_year) VALUES ('ドラえもん のび太の南極カチコチ大冒険','2017');
