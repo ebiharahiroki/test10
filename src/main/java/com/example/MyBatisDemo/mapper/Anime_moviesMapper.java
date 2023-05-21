@@ -2,14 +2,18 @@ package com.example.MyBatisDemo.mapper;
 
 import com.example.MyBatisDemo.entity.Anime_movies;
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
+import java.util.Optional;
 
 @Mapper
 public interface Anime_moviesMapper {
-    @Select("SELECT * FROM anime_movies")
     List<Anime_movies> findAll();
-    @Select("SELECT * FROM anime_movies WHERE published_year = #{published_year}")
-    List<Anime_movies> findByPublishedYear(String published_year);
+    Optional<Anime_movies> findById(int id);
+    Optional<Anime_movies> findByPublishedYear(String published_year);
+    int create(Anime_movies conversionAnime_movies);
+
+    void update(int id, Anime_movies conversionAnime_movies);
+
+    void delete(int id);
 }
